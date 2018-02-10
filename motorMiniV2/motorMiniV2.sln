@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "motorMiniV2", "motorMini.vcxproj", "{3D341878-1E55-4B79-8902-F3A1E18851EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unitTest", "unitTest\unitTest.vcxproj", "{C78206ED-A889-4CD5-89CA-D7E96D86251F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "motorMiniIII", "C:\Users\smandyscom\Documents\Arduino\motorMiniIII\motorMiniIII.vcxproj", "{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Debug|Win32.Build.0 = Debug|Win32
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Release|Any CPU.ActiveCfg = Release|Win32
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Release|Win32.ActiveCfg = Release|Win32
+		{3D341878-1E55-4B79-8902-F3A1E18851EF}.Release|Win32.Build.0 = Release|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Debug|Win32.Build.0 = Debug|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Release|Win32.ActiveCfg = Release|Win32
+		{C78206ED-A889-4CD5-89CA-D7E96D86251F}.Release|Win32.Build.0 = Release|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Debug|Win32.Build.0 = Debug|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Release|Any CPU.ActiveCfg = Release|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Release|Win32.ActiveCfg = Release|Win32
+		{64AC85B2-355E-42CD-9EDE-5CECE137BBAD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_core">
+      <UniqueIdentifier>{9e14206a-5d97-4f24-8c6a-25deb3e6dacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries">
+      <UniqueIdentifier>{7f11e735-d4e1-4ca1-882c-36ef95f4b78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\LiquidCrystal">
+      <UniqueIdentifier>{d5475a3f-7f64-4423-b411-82e5319c7cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\LiquidCrystal\src">
+      <UniqueIdentifier>{90da81bb-b83f-4720-9c6b-563ebcc23d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\TimerOne-r11">
+      <UniqueIdentifier>{0d83ec51-ec86-4ab0-b2f7-d19b0a00d58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\mylibs">
+      <UniqueIdentifier>{f81e55d6-f795-4477-9325-ba9be7236bd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="strokeMeasurePlatform.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Visual Micro\.strokeMeasurePlatform.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\binary.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Client.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\new.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Printable.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Server.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Udp.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBAPI.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBCore.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBDesc.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WCharacter.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard\pins_arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\libraries\LiquidCrystal\src\LiquidCrystal.h">
+      <Filter>_libraries\LiquidCrystal\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\TimerOne-r11\TimerOne.h">
+      <Filter>_libraries\TimerOne-r11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\mylibs\actuator.h">
+      <Filter>_libraries\mylibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\mylibs\convolution.h">
+      <Filter>_libraries\mylibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\mylibs\cwccwControl.h">
+      <Filter>_libraries\mylibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\mylibs\dcBrushControl.h">
+      <Filter>_libraries\mylibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\mylibs\device.h">
+      <Filter>_libraries\mylibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\mylibs\sensingModule.h">
+      <Filter>_libraries\mylibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\mylibs\timer.h">
+      <Filter>_libraries\mylibs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial0.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial1.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial2.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial3.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HID.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\hooks.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\main.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\new.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Tone.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBCore.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WInterrupts.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_analog.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_digital.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_shift.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WMath.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\libraries\LiquidCrystal\src\LiquidCrystal.cpp">
+      <Filter>_libraries\LiquidCrystal\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\TimerOne-r11\TimerOne.cpp">
+      <Filter>_libraries\TimerOne-r11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\mylibs\actuator.cpp">
+      <Filter>_libraries\mylibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\mylibs\convolution.cpp">
+      <Filter>_libraries\mylibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\mylibs\cwccwControl.cpp">
+      <Filter>_libraries\mylibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\mylibs\dcBrushControl.cpp">
+      <Filter>_libraries\mylibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\mylibs\device.cpp">
+      <Filter>_libraries\mylibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\mylibs\sensingModule.cpp">
+      <Filter>_libraries\mylibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\mylibs\timer.cpp">
+      <Filter>_libraries\mylibs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

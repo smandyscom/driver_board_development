@@ -1,0 +1,2 @@
+used to generate triangular pulse train
+in integer
